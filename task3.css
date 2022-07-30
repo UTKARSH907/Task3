@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: rgb(103, 95, 99);
+    min-height: 100vh;
+    z-index: -10;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Container>h1 {
+    text-align: center;
+    margin: 25px 0 20px 0;
+    font-size: 40px;
+    font-family: cursive;
+    color:white;
+      
+  }
+  .Container p{
+    text-align: center;
+    margin: 25px 0 150px 0;
+    font-size: 20px;
+    font-family: cursive;
+    color:white;
+  }
+  
+  .registration {
+    display: inline;
+    flex-direction: column;
+    margin: 40px 10px;
+    padding: 10px;
+  }
+  
+  .registration>div>input {
+    padding: 5px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 0px;
+    border-radius: 2px;
+    border:none;
+    outline:none;
+    color: black;
+  }
+  
+  .registration>div>label {
+    font-size: 19px;
+      font-family: Korean;
+      color:black;
+  }
+  
+  .custom-file-input::before {
+      display: inline-block;
+      background:white;
+      border-radius: 8px;
+      padding: 12px;
+      outline: none;
+      cursor: pointer;
+      border: none;
+      width: 50%;
+  
+  }
+  
+  .gender, .skills {
+    display: flex;
+      align-items: center;
+      margin: 10px 0px;
+      cursor:pointer;
+  
+  }
+  
+  p {
+    margin-right: 10px;
+  }
+  
+  input[type=radio], input[ type=checkbox] {
+    transform: scale(1.3);
+    margin: 10px 10px;
+  }
+  input[type=text], input[type=email]{
+    background-color: powderblue;
+     color: white;
+  }
+  
+  .skills>label, .gender>label {
+    padding: 0px 10px;
+    font-size: 20px;
+  }
+  
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+    background-color:whitesmoke;
+    border: none;
+    margin-right: 10px;
+    border-radius: 20px;
+  }
+  
+  .button:hover {background-color: red;}
+  
+  .button:active {
+    background-color: #50af53;
+    transform: translateY(4px);
+  }
+  
+  .main {
+    display:flex;
+    
+  }
+  @media only screen and (min-width:1500px) {
+    body{
+        background-color: purple;
+    }
+  }
+  
+  .left {
+    width: 40%;
+  }
+  
+  .box {
+    margin-left: 25px;
+    padding-left: 28px;
+    border:black solid 5px;
+    border-radius: 12px;
+    width: 45%;
+    box-shadow: -4px 10px 6px black;
+  }
+  .box1 {
+    margin-left: 25px;
+    padding-left: 28px;
+    border:white solid 4px;
+    border-radius: 12px;
+    width: 45%;
+    box-shadow: 4px -10px 6px white;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    font-size: 20px;
+    font-family: korean;
+    margin-right: 45px;
+    text-shadow: 2px 4px 4px white;
+  }
+  
+  .Enrolled {
+    margin-top: 1.5rem;
+    margin-left: 15px;
+    color:black;
+  }
+  
+  .card {
+    display: flex;
+    text-align: justify;
+    margin: 0.5rem;
+    margin-left: 45px;
+    border: 3px solid rgb(96, 78, 44);
+    padding: 20px 20px;
+  }
+  
+  .image>img {
+    width: 170px;
+    margin: 10px;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin: 7px;
+  }
+  
+  .text {
+    margin: 10px;
+    font-size: 20px;
+  }
+  .card-body{
+    width: 200px;
+  } 
+  .bold{
+    font-weight: bold;
+  }
